@@ -11,27 +11,27 @@
 ////////////////////////////////
 // Get Even
 ////////////////////////////////
-for (let x = 0; x <= 200; x += 2) {
-    console.log(x);
-}
+// for (let x = 0; x <= 200; x += 2) {
+//     console.log(x);
+// }
 
 
 ////////////////////////////////
 // Fizz Buzz
 ////////////////////////////////
-// for (let i = 0; i <= 100; i++) {
-//     if (i % 3 === 0)
-//     console.log("Fizz")
-//     if (i % 5 === 0) {
-//         console.log("Buzz")
-//     }
-//     if (i % 3 === 0 && i % 5 === 0) {
-//         console.log("Fizzbuzz");
-//     }
-//     else {
-//         console.log(i);
-//     }
-// }
+for (let i = 0; i <= 100; i++) {
+    if (i % 3 === 0)
+    console.log("Fizz")
+    if (i % 5 === 0) {
+        console.log("Buzz")
+    }
+    if (i % 3 === 0 && i % 5 === 0) {
+        console.log("Fizzbuzz");
+    }
+    else {
+        console.log(i);
+    }
+}
  
 
 ////////////////////////////////
