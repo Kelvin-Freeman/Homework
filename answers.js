@@ -99,12 +99,12 @@
 ////////////////////////////////
 // Where is Waldo
 ////////////////////////////////
-const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
-                    ["Lucinda", "Jacc", "Neff", "Snoop"],
-                    ["Petunia", ["Baked Goods", "Waldo"]]];                             
-let sliced = whereIsWaldo.splice(1, 1)
+// const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
+//                     ["Lucinda", "Jacc", "Neff", "Snoop"],
+//                     ["Petunia", ["Baked Goods", "Waldo"]]];                             
+// let sliced = whereIsWaldo.splice(1, 1)
 
-console.log(whereIsWaldo);
+// console.log(whereIsWaldo);
 
 
 
@@ -112,14 +112,14 @@ console.log(whereIsWaldo);
 ////////////////////////////////
 //  Excited Kitten
 ////////////////////////////////
-// const catCall = 20
-// for(let i = 0; i < 20; i++) {
-//     console.log('Love me, Pet me! HSSSS');
-// if (i % 2 === 0) {
-//     console.log("human...why does the red dot always get away...");
-//    }
+const catCall = 20
+for(let i = 0; i < 20; i++) {
+    console.log('Love me, Pet me! HSSSS');
+if (i % 2 === 0) {
+    console.log("human...why does the red dot always get away...");
+   }
 
-// }
+}
  
 
 ////////////////////////////////
