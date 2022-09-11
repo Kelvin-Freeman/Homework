@@ -73,38 +73,54 @@
 ////////////////////////////////
 // Methods, Revisited
 ////////////////////////////////
-const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+// const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
 
-console.log(favMovies[8]);
-favMovies.sort()
-console.log(favMovies);
-favMovies.pop()
-console.log(favMovies);
-favMovies.push("Guardians of the Galaxy")
-console.log(favMovies);
-favMovies.reverse()
-console.log(favMovies);
-favMovies.shift()
-console.log(favMovies);
-favMovies.unshift()
-console.log(favMovies);
-let spliced = favMovies.splice(3, 1, 'Avatar')
-console.log(favMovies);
-let sliced = favMovies.slice(0, 10);
-let sliceRemain = favMovies.slice(10, 19)
-console.log(sliced);
-console.log(sliceRemain);
-console.log(favMovies[19]);
+// console.log(favMovies[8]);
+// favMovies.sort()
+// console.log(favMovies);
+// favMovies.pop()
+// console.log(favMovies);
+// favMovies.push("Guardians of the Galaxy")
+// console.log(favMovies);
+// favMovies.reverse()
+// console.log(favMovies);
+// favMovies.shift()
+// console.log(favMovies);
+// favMovies.unshift()
+// console.log(favMovies);
+// let spliced = favMovies.splice(3, 1, 'Avatar')
+// console.log(favMovies);
+// let sliced = favMovies.slice(0, 10);
+// let sliceRemain = favMovies.slice(10, 19)
+// console.log(sliced);
+// console.log(sliceRemain);
+// console.log(favMovies[19]);
 
 ////////////////////////////////
 // Where is Waldo
 ////////////////////////////////
+const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
+                    ["Lucinda", "Jacc", "Neff", "Snoop"],
+                    ["Petunia", ["Baked Goods", "Waldo"]]];                             
+let sliced = whereIsWaldo.splice(1, 1)
+
+console.log(whereIsWaldo);
+
+
 
 
 ////////////////////////////////
 //  Excited Kitten
 ////////////////////////////////
+// const catCall = 20
+// for(let i = 0; i < 20; i++) {
+//     console.log('Love me, Pet me! HSSSS');
+// if (i % 2 === 0) {
+//     console.log("human...why does the red dot always get away...");
+//    }
 
+// }
+ 
 
 ////////////////////////////////
 //  Find the Median
