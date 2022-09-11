@@ -58,12 +58,12 @@
 ////////////////////////////////
 // Yell at the Ninja Turtles
 ////////////////////////////////
-const turtles = ["Donatello", "Leonardo", "Raphael", "michaelangelo"]
+// const turtles = ["Donatello", "Leonardo", "Raphael", "michaelangelo"]
 
-for(let newTurtle of turtles) {
-  let result = newTurtle.toUpperCase()
-console.log(result);
-}
+// for(let newTurtle of turtles) {
+//   let result = newTurtle.toUpperCase()
+// console.log(result);
+// }
 
 
 
@@ -73,7 +73,28 @@ console.log(result);
 ////////////////////////////////
 // Methods, Revisited
 ////////////////////////////////
+const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
 
+console.log(favMovies[8]);
+favMovies.sort()
+console.log(favMovies);
+favMovies.pop()
+console.log(favMovies);
+favMovies.push("Guardians of the Galaxy")
+console.log(favMovies);
+favMovies.reverse()
+console.log(favMovies);
+favMovies.shift()
+console.log(favMovies);
+favMovies.unshift()
+console.log(favMovies);
+let spliced = favMovies.splice(3, 1, 'Avatar')
+console.log(favMovies);
+let sliced = favMovies.slice(0, 10);
+let sliceRemain = favMovies.slice(10, 19)
+console.log(sliced);
+console.log(sliceRemain);
+console.log(favMovies[19]);
 
 ////////////////////////////////
 // Where is Waldo
