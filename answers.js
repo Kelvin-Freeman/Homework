@@ -112,16 +112,25 @@
 ////////////////////////////////
 //  Excited Kitten
 ////////////////////////////////
-const catCall = 20
-for(let i = 0; i < 20; i++) {
-    console.log('Love me, Pet me! HSSSS');
-if (i % 2 === 0) {
-    console.log("human...why does the red dot always get away...");
-   }
+// const catCall = 20
+// for(let i = 0; i < 20; i++) {
+//     console.log('Love me, Pet me! HSSSS');
+// if (i % 2 === 0) {
+//     console.log("human...why does the red dot always get away...");
+//    }
 
-}
+// }
  
 
 ////////////////////////////////
 //  Find the Median
 ////////////////////////////////
+
+
+const median = arr => {
+    const mid = Math.floor(arr.length / 2),
+      nums = [...arr].sort((a, b) => a - b);
+    return arr.length % 2 !== 0 ? nums[mid] : (nums[mid - 1] + nums[mid]) / 2;
+  };
+  console.log(median([14,11,16,15,13,16,15,17,19,11,12,14]));
+  console.log(median([19,11,15,17,11,18,12,17,12,71,18,15,12]));
